@@ -5,19 +5,18 @@
 **/
 
 import { ConfigManager } from '@txo/config-manager'
-import {
-  Level,
+
+import type {
   WriteLog,
   Payload,
+} from '../Model/Types'
+import {
+  Level,
 } from '../Model/Types'
 
 import {
   payloadProcessor,
 } from './Utils'
-
-export {
-  payloadProcessor,
-}
 
 type LoggerConfig = {
   writeLog: WriteLog,

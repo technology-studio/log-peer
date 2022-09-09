@@ -4,13 +4,14 @@
  * @Copyright: Technology Studio
 **/
 
+import type { WriteLog } from '@txo-peer-dep/log'
 import {
   configManager,
   Level,
-  WriteLog,
 } from '@txo-peer-dep/log'
 
 const sampleWriteLog: WriteLog = (level, name, namespace, message, payload, options) => {
+  // eslint-disable-next-line no-console
   console.log(level, name, namespace, message, payload)
 }
 

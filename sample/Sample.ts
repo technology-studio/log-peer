@@ -4,7 +4,8 @@
  * @Copyright: Technology Studio
 **/
 
-import { Log } from '@txo/log/src'
+// eslint-disable-next-line import/no-unresolved --- TODO: resolve eslint issue with import
+import { Log } from '@txo/log'
 
 const log = new Log('namespace.namespace.namespace.Sample')
 

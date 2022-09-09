@@ -11,10 +11,10 @@ import type {
   Payload,
 } from '../Model/Types'
 
+import type { Config } from './Config'
 import {
   configManager,
   isNodeEnvironmentEnabled,
-  Config,
 } from './Config'
 
 class LogManager {
