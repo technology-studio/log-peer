@@ -13,7 +13,7 @@ export const suppressFreezing = (payload?: Payload, parents: unknown[] = [], lev
   if (level > 10) {
     return
   }
-  if (payload) {
+  if (payload != null) {
     const _parents = [...parents, payload]
     if (Array.isArray(payload)) {
       if (parents.includes(payload)) {
