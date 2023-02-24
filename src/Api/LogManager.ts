@@ -31,7 +31,7 @@ class LogManager {
 
   syncFromConfig (config: Config): void {
     this._writeLogList = []
-    if (config.loggerConfigMap) {
+    if (config.loggerConfigMap != null) {
       const loggerConfigMap = config.loggerConfigMap
       Object.keys(loggerConfigMap).forEach(loggerKey => {
         const loggerConfig = loggerConfigMap[loggerKey]
@@ -43,7 +43,7 @@ class LogManager {
   }
 
   writeLog (level: Level, name: string, namespace: string, message: string, payload?: Payload, options?: Options): void {
-    this._writeLogList.forEach(writeLog => writeLog(level, name, namespace, message, payload, options))
+    this._writeLogList.forEach(writeLog => { writeLog(level, name, namespace, message, payload, options) })
   }
 
   registerWriteLog (writeLog: WriteLog): () => void {
