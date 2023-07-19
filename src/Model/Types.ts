@@ -16,7 +16,6 @@ export type Options = {
   important: boolean,
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export type Payload = any
+export type Payload = unknown
 
 export type WriteLog = (level: Level, name: string, namespace: string, message: string, payload?: Payload, options?: Options) => void

@@ -27,7 +27,7 @@ export const suppressFreezing = (payload?: Payload, parents: unknown[] = [], lev
       }
 
       return Object.keys(objectPayload).reduce((result: Record<string, unknown>, key) => {
-        result[key] = suppressFreezing(objectPayload[key], _parents, level + 1)
+        result[key] = suppressFreezing(objectPayload[key as keyof typeof objectPayload], _parents, level + 1)
         return result
       }, {})
     }
