@@ -1,3 +1,15 @@
+## [4.0.2](https://github.com/technology-studio/log-peer/compare/v4.0.1...v4.0.2) (2023-09-20)
+
+
+### Bug fixes
+
+* recreate yarn.lock ([#363](https://github.com/technology-studio/log-peer/issues/363)) ([ddcd9ed](https://github.com/technology-studio/log-peer/commit/ddcd9ed72f6a9d2bf0faadc6fa31eb12311a875a))
+
+
+### Testing
+
+* add test for allowed dependencies ([#297](https://github.com/technology-studio/log-peer/issues/297)) ([5b6c9aa](https://github.com/technology-studio/log-peer/commit/5b6c9aa4e7fbed8546b98b50f8cd12cfe8a2d2bb))
+
 ## [4.0.1](https://github.com/technology-studio/log-peer/compare/v4.0.0...v4.0.1) (2023-07-20)
 
 
