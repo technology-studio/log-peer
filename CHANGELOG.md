@@ -1,3 +1,10 @@
+## [4.0.3](https://github.com/technology-studio/log-peer/compare/v4.0.2...v4.0.3) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/config-manager to ^3.2.0 ([73b5e30](https://github.com/technology-studio/log-peer/commit/73b5e305d848593b280b51b1d68c5ccb19d7d296))
+
 ## [4.0.2](https://github.com/technology-studio/log-peer/compare/v4.0.1...v4.0.2) (2023-09-20)
 
 
