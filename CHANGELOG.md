@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/technology-studio/log-peer/compare/v4.0.3...v4.0.4) (2024-04-09)
+
+
+### Bug fixes
+
+* add implicit NODE_ENV fallback to development ([#502](https://github.com/technology-studio/log-peer/issues/502)) ([5046402](https://github.com/technology-studio/log-peer/commit/5046402d380df7efa6b5086c8a9a66193a6aeb28))
+
 ## [4.0.3](https://github.com/technology-studio/log-peer/compare/v4.0.2...v4.0.3) (2023-11-11)
 
 
